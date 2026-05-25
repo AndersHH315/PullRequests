@@ -10,6 +10,7 @@
                 try
                 {
                     Console.WriteLine("Försöker läsa fil och räkna...");
+                     Console.WriteLine("Worst type of commit you could ever send.");
                     var path = Path.Combine(AppContext.BaseDirectory, "numbers.txt");
                     var result = ProcessFile(path);
                   
